@@ -33,7 +33,7 @@ class _NewsViewState extends State<NewsView> {
 
         SourceModel sourceModel = snapshot.data!;
         return NewsDetails(
-          sourceModel: sourceModel,
+          categoryData: widget.categoryData,
         );
       },
     );
